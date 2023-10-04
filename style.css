@@ -2,6 +2,7 @@
 
 body{
 	background: linear-gradient(45deg,#a4a867,#e8cfc3,#2d2719);
+	overflow: hidden;
 }
 
 .title	{
