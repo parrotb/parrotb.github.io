@@ -10,13 +10,6 @@ body{
 	font-size: 80px;
 }
 
-.container {
-	width: 100%;
-	height: auto;
-	margin: 30px;
-	display: inline-block;
-}
-
 h3	{
 	font-family: Quicksand;
 	font-size: 25px;
