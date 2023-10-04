@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Water+Brush&display=swap');
 
 body{
-	background: linear-gradient(45deg,#595251,#e6dcd7,#8d7e78,#595251,#7a5e58,#c3ab9d,#95a19b,#9e9394);
+	background: linear-gradient(45deg,#a4a867,#e8cfc3,#2d2719);
 }
 
 .title	{
@@ -20,11 +20,6 @@ body{
 h3	{
 	font-family: Quicksand;
 	font-size: 25px;
-}
-
-h4{
-	font-family: Quicksand;
-	font-size: 18px;
 }
 
 p	{
