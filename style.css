@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Water+Brush&display=swap');
+
+body{
+	background: linear-gradient(45deg,#595251,#e6dcd7,#8d7e78,#595251,#7a5e58,#c3ab9d,#95a19b,#9e9394);
+}
+
+.title	{
+	font-family: Quicksand;
+	text-align: center;
+	font-size: 80px;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	margin: 30px;
+	display: inline-block;
+}
+
+.content1	{
+	width:50%;
+	float: right;
+}
+
+.content2 {
+	width: 50%;
+	float: left;
+}
+
+.profile	{
+	width: 300px;
+	height: 388px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+.phone	{
+	width: 500px;
+	height: 375px;
+	border-radius: 50px;
+	overflow: hidden;
+}
+
+h3	{
+	font-family: Quicksand;
+	font-size: 25px;
+}
+
+h4{
+	font-family: Quicksand;
+	font-size: 18px;
+}
+
+p	{
+	line-height: 30px;
+}
+
+.button {
+	font-family: Quicksand;
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	background: linear-gradient(45deg,#95a19b,#595251);
+	padding: 15px;
+	border-radius: 30px;
+	text-decoration: none;
+}
+
+.experience {
+	padding: 10px;
+	border-left: solid 5px #595251;
+}
