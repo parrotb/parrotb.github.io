@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&family=Water+Brush&display=swap');
+
+HTML	{
+    min-height: 100%;
+}
+
+body	{
+	background: linear-gradient(to left top,#a4a867,#e8cfc3);
+	overflow: hidden;
+}
+
+.title	{
+	font-family: Quicksand;
+	text-align: center;
+	font-size: 80px;
+}
+
+h3	{
+	font-family: Quicksand;
+	font-size: 25px;
+}
+
+p	{
+	line-height: 30px;
+}
