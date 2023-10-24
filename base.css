@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+header { 
+  margin: 0;
+  padding-top: 5px;
+  background-color: #CEB1BE;
+  text-align: center;
+}
+
+/* classes for topnav, base code copied from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_topnav and adjusted for look and feel.
+*/
+
+.topnav {
+  overflow: hidden;
+  background-color: #2D2D34;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 18px 20px;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+.topnav a:hover {
+  background-color: #f5fffa;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #B97375;
+  color: white;
+}
+
+/* other basic features (tags) of the pages
+*/
+
+main { 
+  margin: 0; 
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #E2DCDE;
+  font-size: 1.6rem;
+  min-height: 300px;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-style: italic;
+  font-weight: bold;
+  color: #B97375;
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+p {
+	margin-bottom: 2px;
+}
+
+footer {
+  margin: 0;
+  text-align: center;
+  padding: 1px;
+  padding-bottom: 10px;
+  background-color: #2D2D34;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.footerlink a {
+	color: white;
+	
+}
+
+.footerlink a:visited{
+	color: white;
+}
+
+/* classes for gallery layout and images 
+*/
+
+.catbox {
+  display: inline-block;
+  min-width: 100px;
+  min-height: 75px;
+  width: 375px;
+  height: 375px;
+  background-color: #CEB1BE;
+  border: 2px #2D2D34 solid;
+  margin-top: 10px;
+  margin-bottom: 0px;
+  margin-left: 15%;
+  margin-right: 10%;
+  padding: 5px;
+  overflow: auto;
+  text-align: center;
+}
+
+.cat_type {
+  font-weight: bold;
+  color: #2D2D34;
+}
+
+.cat_descr {
+  font-size: 1.6rem;
+}
+
+.image_caption {
+  font-size: 1rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+/* css for credits page
+*/
+
+.credit_text {
+   margin-left: 20px;
+}
+
+/* to provide spaces between bullet lists */
+li {
+  margin-bottom: 20px; 
+}
